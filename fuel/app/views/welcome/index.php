@@ -65,6 +65,11 @@
 <div class="main-container">
     <div class="main wrapper clearfix">
 
+        <form id="frmPost" method="post">
+            <input type="text" />
+            <input type="submit" value="Alo" />
+        </form>
+
         <article>
             <header>
                 <h1>article header h1</h1>
