@@ -65,7 +65,8 @@
 <div class="main-container">
     <div class="main wrapper clearfix">
 
-        <form id="frmPost" method="post">
+        <form id="frmPost" method="post" action="message/create">
+            <input type="hidden" name="<?php echo \Config::get('security.csrf_token_key');?>" value="<?php echo \Security::fetch_token();?>" />
             <input type="text" />
             <input type="submit" value="Alo" />
         </form>
