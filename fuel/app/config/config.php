@@ -19,6 +19,6 @@ return array(
     'security' => array(
         'input_filter' => array(),
     ),'packages' => array(
-        'auth',
+        'auth','orm',
     )
 );
