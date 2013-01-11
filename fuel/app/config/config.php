@@ -18,7 +18,9 @@
 return array(
     'security' => array(
         'input_filter' => array(),
-    ),'packages' => array(
-        'auth','orm',
-    )
+    ), 'always_load' => array(
+        'packages' => array(
+            'orm','auth'
+        ),
+    ),
 );
